@@ -61,6 +61,9 @@ control = int(input())
 
 max_res = m7 * max_value
 
+if max_res % 49 == 0:
+    control = 1 
+
 print('Введено чисел:', count)
 print('Контрольное значение:', control)
 print('Вычисленное значение:', max_res)
