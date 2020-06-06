@@ -71,10 +71,12 @@ control = int(input())
 
 firs_res = m7 * m2
 second_res = m14 * max_value
+max_res = max(firs_res, second_res)
 
-print('Вычисленное контрольное значение:', max(firs_res, second_res))
 
-if max(firs_res, second_res) == control:
+print('Вычисленное контрольное значение:', max_res)
+
+if max_res == control:
     print('Контроль пройден')
 else:
     print('Контроль не пройден')
