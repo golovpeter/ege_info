@@ -31,7 +31,7 @@
 
 # Пример входных данных:
 
-# б
+# 6
 
 # 77
 # 14
@@ -67,12 +67,14 @@ for i in range(n):
     elif value > max_value:
         max_value = value
 
+control = int(input())
+
 firs_res = m7 * m2
 second_res = m14 * max_value
-print(max(firs_res, second_res))
 
-if max(firs_res, second_res) != 0:
-    print('Вычисленное контрольное значение:', max(firs_res, second_res))
+print('Вычисленное контрольное значение:', max(firs_res, second_res))
+
+if max(firs_res, second_res) == control:
     print('Контроль пройден')
 else:
     print('Контроль не пройден')
