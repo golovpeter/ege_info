@@ -1,3 +1,3 @@
-# ege_info
+# Ege_info
 
-Repository to prepare for Unified State Exam
+Repository to prepare for Unified State Exam in computer science
