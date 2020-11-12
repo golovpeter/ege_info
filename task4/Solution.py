@@ -1,7 +1,7 @@
 res = 0
 min_dif = 10000
 
-with open('27-B_demo.txt') as file:
+with open('test.txt') as file:
     n = int(file.readline())
     for i in range(n):
         lst = list(map(int, file.readline().split()))
