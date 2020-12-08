@@ -15,7 +15,7 @@ with open('file.txt') as file:
 
         last_i = i
 
-        max_el = files_vol[last_i]
+    max_el = files_vol[last_i]
 
     for i in range(last_i + 1, users_num):
         if (files_sum - max_el) + files_vol[i] <= capacity:
